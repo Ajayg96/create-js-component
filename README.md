@@ -11,7 +11,7 @@ npm install -g create-js-file
 ```
 
 ```bash
-yarn add -g create-js-file
+yarn global add create-js-file
 ```
 
 ## Usage
