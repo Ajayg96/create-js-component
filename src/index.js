@@ -24,7 +24,8 @@ async function createFile() {
     const cwd = process.cwd();
     if (fileName.includes(".js") || fileName.includes(".jsx")) {
       fs.writeFileSync(`${cwd}/${fileName}`, data);
-      console.log(`${component} ${fileName} created at ${cwd}`);
+      console.log(`${framework}:- ${component} ${fileName} created at ${cwd}`);
+      console.log("Thank you for using create-js-component :)");
     } else {
       console.log("Extension should be either .js or .jsx");
     }
@@ -57,7 +58,7 @@ export default ${componentName};
     `;
     } else {
       component = `
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class ${componentName} extends Component {
   render() {

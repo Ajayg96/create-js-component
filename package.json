@@ -1,6 +1,6 @@
 {
-  "name": "create-js-file",
-  "version": "1.0.3",
+  "name": "create-js-component",
+  "version": "1.0.0",
   "description": "A command line tool to create basic react/react-native component",
   "main": "src/index.js",
   "scripts": {
@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ajayg96/create-js-file.git"
+    "url": "git+https://github.com/Ajayg96/create-js-component.git"
   },
   "bugs": {
-    "url": "https://github.com/Ajayg96/create-js-file/issues"
+    "url": "https://github.com/Ajayg96/create-js-component/issues"
   },
-  "homepage": "https://github.com/Ajayg96/create-js-file#readme",
+  "homepage": "https://github.com/Ajayg96/create-js-component#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
   }
