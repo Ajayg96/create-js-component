@@ -1,6 +1,6 @@
 {
   "name": "create-js-file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command line tool to create basic react/react-native component",
   "main": "src/index.js",
   "scripts": {

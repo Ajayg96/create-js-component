@@ -20,7 +20,7 @@ async function createFile() {
         choices: ["Functional Component", "Class Component"],
       },
     ]);
-    let data = componentContent(component, fileName, framework);
+    let data = createComponent(component, fileName, framework);
     const cwd = process.cwd();
     if (fileName.includes(".js") || fileName.includes(".jsx")) {
       fs.writeFileSync(`${cwd}/${fileName}`, data);
@@ -33,7 +33,7 @@ async function createFile() {
   }
 }
 
-function componentContent(type, fileName, framework) {
+function createComponent(componentType, fileName, framework) {
   let componentName = "";
   let component = "";
   if (fileName.includes(".js")) {
@@ -43,7 +43,7 @@ function componentContent(type, fileName, framework) {
     componentName = fileName.slice(0, -4);
   }
   if (framework === "React") {
-    if (type === "Functional Component") {
+    if (componentType === "Functional Component") {
       component = `
 import React from 'react';
 
@@ -57,7 +57,7 @@ export default ${componentName};
     `;
     } else {
       component = `
-import React from 'react';
+import React, {Component} from 'react';
 
 class ${componentName} extends Component {
   render() {
@@ -71,7 +71,7 @@ export default ${componentName};
     `;
     }
   } else {
-    if (type === "Functional Component") {
+    if (componentType === "Functional Component") {
       component = `
 import React from 'react';
 import { View, Text } from 'react-native';
