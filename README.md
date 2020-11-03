@@ -24,9 +24,7 @@ npx create-js-component Hello.js
 create-js-component Hello.js
 ```
 
-<div style="background-color: black; padding: 8px">
-    <span style="background-color: black; color: green;"> 
-    Users/Ajay/Downloads> create-js-component Hello.js <br>
+<code style="color: green;"> 
     Pick the framework you're using: <br>
     > React <br>
     > React-Native <br>
@@ -35,8 +33,7 @@ create-js-component Hello.js
     > Class Component <br>
     React:- Functional Component Hello.js created at Users/Ajay/Downloads<br>
     Thank you for using create-js-component :)
-    </span>
-</div>
+</code>
 
 ## License
 
