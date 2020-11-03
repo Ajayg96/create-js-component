@@ -14,15 +14,29 @@ npm install -g create-js-component
 yarn global add create-js-component
 ```
 
+```bash
+npx create-js-component Hello.js
+```
+
 ## Usage
 
 ```js
 create-js-component Hello.js
 ```
 
-![Screenshot](src/code.png)
-
-<!-- ![Screenshot](src/code.png?raw=true "Title") -->
+<div style="background-color: black;">
+    <code style="background-color: black; color: green;"> 
+    Users/Ajay/Downloads> create-js-component Hello.js <br>
+    Pick the framework you're using: <br>
+    > React <br>
+    > React-Native <br>
+    Type of component ?<br> 
+    > Functional Component <br>
+    > Class Component <br>
+    React:- Functional Component Hello.js created at Users/Ajay/Downloads<br>
+    Thank you for using create-js-component :)
+    </code>
+</div>
 
 ## License
 
