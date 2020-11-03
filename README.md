@@ -24,16 +24,7 @@ npx create-js-component Hello.js
 create-js-component Hello.js
 ```
 
-<code style="color: green;"> 
-    Pick the framework you're using: <br>
-    > React <br>
-    > React-Native <br>
-    Type of component ?<br> 
-    > Functional Component <br>
-    > Class Component <br>
-    React:- Functional Component Hello.js created at Users/Ajay/Downloads<br>
-    Thank you for using create-js-component :)
-</code>
+![Screenshot](src/code.png)
 
 ## License
 
