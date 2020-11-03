@@ -20,6 +20,10 @@ yarn global add create-js-component
 create-js-component Hello.js
 ```
 
+![Screenshot](src/code.png)
+
+<!-- ![Screenshot](src/code.png?raw=true "Title") -->
+
 ## License
 
 MIT © [Ajay](LICENSE)
