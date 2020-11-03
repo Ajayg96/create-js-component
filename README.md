@@ -7,20 +7,14 @@
 ## Install
 
 ```bash
-npm install -g create-js-component
-```
-
-```bash
-yarn global add create-js-component
-```
-
-```bash
-npx create-js-component Hello.js
+npm:- npm install -g create-js-component
+yarn: -yarn global add create-js-component
+npx:- npx create-js-component Hello.js
 ```
 
 ## Usage
 
-```js
+```bash
 create-js-component Hello.js
 ```
 
